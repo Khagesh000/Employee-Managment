@@ -1,0 +1,10 @@
+#content table{
+	margin-left:50px;
+	font-size:8px;
+}
+th{
+	border:2px solid black;
+}
+td{
+	border:1px solid black;
+}

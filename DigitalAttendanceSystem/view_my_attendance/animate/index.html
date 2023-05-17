@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+<style>
+html {
+height: 100%;
+}
+
+h1 {
+font-size: 20px;
+text-transform:uppercase;
+font-family: "Times New Roman", Times, serif;
+}
+.linear-wipe {
+text-align: center;
+background: -webkit-gradient(linear, left top, right top, color-stop(20%, #FF3202), color-stop(40%, #FF6E02), color-stop(60%, #FF6E02), color-stop(80%, #FF3202));
+background: linear-gradient(to right, #FF3202 20%, #FF6E02 40%, #FF6E02 60%, #FF3202 80%);
+background-size: 200% auto;
+color: #000;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-animation: shine 3s linear infinite;
+animation: shine 1s linear infinite;
+}
+@-webkit-keyframes shine {
+to {
+background-position: 200% center;
+}
+}
+@keyframes shine {
+to {
+background-position: 200% center;
+}
+}
+</style>
+</head>
+<body>
+
+<h1 class="linear-wipe">ATTENDANCE MANAGEMENT SYSTEM</h1>
+</body>
+</html>
